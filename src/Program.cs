@@ -33,7 +33,7 @@ else
    Console.WriteLine("Currently adding users to a special discord group on authentication. (Group ID "+ authGroup + ")");
 
 if (string.IsNullOrEmpty(globalKey))
-   Console.WriteLine("Currently not using a global API key that everyone can use.");
+   Console.WriteLine("Actualmente no se utiliza una clave API global que todos puedan usar.");
 
 using IHost host = Host.CreateDefaultBuilder(args)
     .ConfigureServices(services =>
