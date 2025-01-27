@@ -1,4 +1,4 @@
-﻿using Discord;
+using Discord;
 using Discord.Interactions;
 using DiscordBot.AutoCompleteHandlers;
 using Microsoft.Extensions.Logging;
@@ -30,7 +30,7 @@ namespace DiscordBot.Modules
       /// <summary>
       /// Logs you in to the configured pterodactyl panel
       /// </summary>
-      [SlashCommand("login", "Logs you in to the configured pterodactyl panel.")]
+      [SlashCommand("login", "Inicia sesión en el panel de Pterodactyl configurado.")]
       [RequireContext(ContextType.Guild)]
       [RequireUserPermission(GuildPermission.UseApplicationCommands)]
       public Task Login(string apiKey)
@@ -85,7 +85,7 @@ namespace DiscordBot.Modules
       /// <summary>
       /// Removes the API key from a logged in user.
       /// </summary>
-      [SlashCommand("deletelogin", "Removes the API key from a logged in user.")]
+      [SlashCommand("deletelogin", "Elimina la clave API de un usuario que ha iniciado sesión.")]
       [RequireContext(ContextType.Guild)]
       [RequireUserPermission(GuildPermission.UseApplicationCommands)]
       public Task DeleteLogin([Autocomplete(typeof(UsersAutoCompleteHandler))] int userToDelete)
