@@ -1,0 +1,27 @@
+﻿{
+	"messages": [
+		{ "login.required": "Es necesario iniciar sesión antes de poder acceder a este comando. Ejecuta /login para configurar su clave API personal, puedes conseguirla [AQUI](https://panel.tatnikhost.net/account/api)." },
+		{ "channel.command.executed": "{0} Ejecutado en {1} {2} ({3})" },
+		{ "listservers.noservers": "No tienes servidores disponibles." },
+		{ "listservers.header": "## *Servidores disponibles:*" },
+		{ "listservers.header.online": "Online:" },
+		{ "listservers.header.offline": "Offline:" },
+		{ "listservers.item.running": "- ✅ **Funcionando |** {0}" },
+		{ "listservers.item.starting": "- ⌛ **Iniciando |** {0}" },
+		{ "listservers.item.stopping": "- ⌛ **Deteniendose |** {0}" },
+		{ "listservers.item.offline": "- 🛑 **Detenido |** {0}" },
+		{ "startserver.starting": "⌛ **Comando recibido |** {0} : iniciando..." },
+		{ "startserver.startingCount": "⌛ **Comando recibido |** {0}: iniciando... (`{1}s`)" },
+		{ "startserver.started": "## ✅ {0}: Iniciado exitosamente en `{1} Segundos`" },
+		{ "startserver.timeout": "❌ **Error |** {0}: se agotó el tiempo de espera después de `{1} Segundos`" },
+		{ "startserver.failed": "❌ **Error |** {0}: failed after {1}s" },
+		{ "stopserver.stopping": "⌛ **Comando recibido |** {0}: deteniendose..." },
+		{ "stopserver.failed": "❌ **Error |** {0}: No pudo detenerse" },
+		{ "stopserver.stopped": "🛑 ** {0}: Detenido exitosamente" },
+		{ "login.loginadded": "{0} inicio sesión correctamente" },
+		{ "login.loginupdated": "Clave API actualizada para el usuario {0}." },
+		{ "login.loginnotworking": "La clave API proporcionada no funciona como se esperaba. Proporciona una clave API de https://panel.tatnikhost.net/account/api" },
+		{ "deletelogin.nonexistent": "El usuario que estás intentando eliminar no existe en la base de datos." },
+		{ "deletelogin.deleted": "Eliminaste con éxito la clave API para el usuario {0}." }
+	]
+}
