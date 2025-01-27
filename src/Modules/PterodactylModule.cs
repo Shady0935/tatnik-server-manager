@@ -1,4 +1,4 @@
-﻿using Discord;
+using Discord;
 using Discord.Interactions;
 using DiscordBot.AutoCompleteHandlers;
 using DiscordBot.Preconditions;
@@ -38,7 +38,7 @@ namespace DiscordBot.Modules
       /// <summary>
       /// Starts a server on a pterodactyl panel
       /// </summary>
-      [SlashCommand("listservers", "Lists all available servers.")]
+      [SlashCommand("listservers", "Enumera todos los servidores disponibles.")]
       [RequiresAnyLogin]
       [RequireContext(ContextType.Guild)]
       [RequireUserPermission(GuildPermission.UseApplicationCommands)]
@@ -86,7 +86,7 @@ namespace DiscordBot.Modules
       /// <summary>
       /// Starts a server on a pterodactyl panel
       /// </summary>
-      [SlashCommand("startserver", "Starts an offline server.")]
+      [SlashCommand("startserver", "Inicia un servidor que se encuentra Offline")]
       [RequiresAnyLogin]
       [RequireContext(ContextType.Guild)]
       [RequireUserPermission(GuildPermission.UseApplicationCommands)]
@@ -137,7 +137,7 @@ namespace DiscordBot.Modules
       /// <summary>
       /// Stops a server on a pterodactyl panel
       /// </summary>
-      [SlashCommand("stopserver", "Stops a running server.")]
+      [SlashCommand("stopserver", "Detiene un servidor que se encuentra online")]
       [RequiresAnyLogin]
       [RequireContext(ContextType.Guild)]
       [RequireUserPermission(GuildPermission.UseApplicationCommands)]
