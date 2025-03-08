@@ -10,6 +10,5 @@
     <p>I'm not the original creator of many of this code, this is a new/improved/translated version of the pterodactyl discord bot made by   
         <a href="https://github.com/kevinsnijder/pterodactyl-discord-bot.git" target="_blank">kevinsnijder</a>.
     </p>
-    <img src="https://i.imgur.com/xUw9gJq.png" alt="tatnik-host-logo" width="50%">
 </body>
 </html>
